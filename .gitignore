@@ -1,0 +1,131 @@
+# .gitignore
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environnements
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+#base de données Postgres
+*.psql
+*.pgdata
+
+
+# Système d'exploitation
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+*.iml
+*.sublime-*
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Logs
+logs/
+*.log
+
+# Render
+.render.yaml
+.render/
+
+# Railway
+.railway/
+railway.toml
+
+# Docker
+docker-compose.override.yml
+
+# Sécurité
+*.pem
+*.key
+*.cert
