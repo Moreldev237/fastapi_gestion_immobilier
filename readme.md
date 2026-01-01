@@ -15,7 +15,13 @@ API REST complète pour la gestion de propriétés, réservations et favoris, co
 ## 🚀 Déploiement rapide
 
 ### Option : Render.com 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy) 
+
+### ou
+
+ ### Option : pythonanywhere.com 
+[![Deploy to pythonanywhere](https://pythonanywhere.com/images/deploy-to-pythonanywhere-button.svg)](https://pythonanywhere.com/deploy)
+
 
 ### Option pour ouvrir en Locale
 ```bash
@@ -23,18 +29,22 @@ API REST complète pour la gestion de propriétés, réservations et favoris, co
 git clone https://github.com/Moreldev237/FASTAPI.git
 cd FASTAPI
 
+```bash
 # Créer un environnement virtuel
 python -m venv venv
 
+```bash
 # Activer l'environnement
 # Sur Windows :
 venv\Scripts\activate
 # Sur Mac/Linux :
 source venv/bin/activate
 
+```bash
 # Installer les dépendances
 pip install -r requirements.txt
 
+```bash
 # Lancer le serveur
 uvicorn main:app --reload
 
@@ -75,6 +85,7 @@ API Endpoints
 
 Authentification
 
+
 POST /api/auth/registration/ - Inscription
 POST /api/auth/login/ - Connexion
 POST /api/auth/logout/ - Déconnexion
@@ -102,6 +113,9 @@ DELETE /api/favorites/{id}/ - Retirer un favori
 Créé moi ses api avec FastAPI api
 
 Voici une implémentation complète des API avec FastAPI :
+
+
+
 1. Structure du projet
 text
 
@@ -113,6 +127,7 @@ project/
 ├── database.py
 ├── auth.py
 └── requirements.txt
+
 
 2. requirements.txt
 txt
