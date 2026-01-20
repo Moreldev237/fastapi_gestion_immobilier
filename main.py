@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 # Create database tables
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Property Management API")
+app = FastAPI(title="Property Management API", docs_url="/docs", redoc_url="/redoc")
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 
