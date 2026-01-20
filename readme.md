@@ -16,7 +16,8 @@ API REST complète pour la gestion de propriétés, réservations et favoris, co
 
 ### Option : Render.com 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy) 
-
+ 
+ lien du projet deployer [voir](https://property-management-api-gu02.onrender.com)
 ### ou
 
  ### Option : pythonanywhere.com 
