@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Depends, HTTPException, status
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from datetime import timedelta
@@ -54,7 +54,7 @@ async def root():
 @app.exception_handler(Exception)
 async def generic_exception_handler(request, exc):
     logger.error(f"Unhandled error: {exc}")
-    return HTTPException(status_code=500, detail="Internal Server Error")
+    return JSONResponse(status_code=500, content={"detail": str(exc)})
 
 # Authentication Endpoints
 @app.post("/api/auth/registration/", response_model=schemas.User, status_code=status.HTTP_201_CREATED)
