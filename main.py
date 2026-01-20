@@ -48,7 +48,8 @@ async def root():
                 <p>Veuillez voir la docs de l'API en tapant <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a></p>
                 <h4> c'est uniquement en local ici et si vous voulez clonez le projet le readme.md dans mon github est disponible</h4>
 
-                <p> pour la production in faut cliquer sur ce lien https://property-management-api-gu02.onrender.com et pour voir la documentation en production click ici https://property-management-api-gu02.onrender.com/docs 
+                <p> pour la production in faut cliquer sur ce lien <a href="https://property-management-api-gu02.onrender.com"> et pour voir la documentation en production click ici <a href="https://property-management-api-gu02.onrender.com/docs">https://property-management-api-gu02.onrender.com/docs</a></p>
+                <p>
                 Merci et bonne utilisation !</p>
             </body>
         </html>
