@@ -26,7 +26,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
                    "http://127.0.0.1:8000",  # Votre frontend local
-        "https://FASTAPI.onrender.com",  # Votre domaine de production"
+        
         ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -46,6 +46,10 @@ async def root():
                 <h1>Bienvenu dans FASTAPI</h1>
                 <p>Développé par NKONGA TADJUIDJE MOREL.</p>
                 <p>Veuillez voir la docs de l'API en tapant <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a></p>
+                <h4> c'est uniquement en local ici et si vous voulez clonez le projet le readme.md dans mon github est disponible</h4>
+
+                <p> pour la production in faut cliquer sur ce lien https://property-management-api-gu02.onrender.com et pour voir la documentation en production click ici https://property-management-api-gu02.onrender.com/docs 
+                Merci et bonne utilisation !</p>
             </body>
         </html>
         """
