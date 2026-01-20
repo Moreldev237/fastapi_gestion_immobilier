@@ -1,11 +1,14 @@
 # render.yaml
 services:
   - type: web
-    name: property-management-api
+    name: Property Management API
     runtime: python
-    plan: starter
-    buildCommand: pip install -r requirements.txt
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: SECRET_KEY
         generateValue: true
+      - key: DATABASE_URL
+        value: ""
