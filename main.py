@@ -45,12 +45,13 @@ async def root():
             <body>
                 <h1>Bienvenu dans FASTAPI</h1>
                 <p>Développé par NKONGA TADJUIDJE MOREL.</p>
-                <p>Veuillez voir la docs de l'API en tapant <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a></p>
-                <h4> c'est uniquement en local ici et si vous voulez clonez le projet le readme.md dans mon github est disponible</h4>
+            <a href="https://property-management-api-gu02.onrender.com/docs">Documentation API</a>
+            <a href="https://property-management-api-gu02.onrender.com/redoc">ReDoc Documentation</a>
 
-                <p> pour la production il faut cliquer sur ce lien <a "href="https://property-management-api-gu02.onrender.com"> et pour voir la documentation en production click ici <a href="https://property-management-api-gu02.onrender.com/docs"> ou <a href="https://property-management-api-gu02.onrender.com/redoc"></p>
-                <h4> sa c'est en production et visible sur n'importe quel navigateur et vos retour sont les bienvenus </h4>
-                <p>Merci et bonne utilisation !</p>
+            <h2> si vous aviez clonez le projet depuis mon github, veuillez svp mettre une étoile ⭐️ et voir plutot les liens en locales</h2>
+            <a href="http://127.0.0.1:8000/docs">Documentation API Locale</a>
+            <a href="http://http://127.0.0.1:8000/redoc">ReDoc Documentation Locale</a>
+            <h1> vos retours sont les bienvenus parcequ'on n'apprend tout les jours Merci !</h1>
             </body>
         </html>
         """
