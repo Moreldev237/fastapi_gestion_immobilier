@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from datetime import timedelta
 import crud
 import models
+import uvicorn
 import schemas
 import auth
 from database import engine, get_db
@@ -233,6 +234,8 @@ def delete_favorite(
         raise HTTPException(status_code=404, detail="Favorite not found or not authorized")
     return None
 
+
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    # Render fournit le port via la variable d'environnement PORT
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
