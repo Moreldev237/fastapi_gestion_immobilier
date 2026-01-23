@@ -41,17 +41,15 @@ logger = logging.getLogger(__name__)
 async def root():
         html_content = """
         <html>
-            <head><title>Bienvenue</title></head>
+            <head><title>api</title></head>
             <body>
                 <h1>Bienvenu dans FASTAPI</h1>
-                <p>Développé par NKONGA TADJUIDJE MOREL.</p>
-            <a href="https://property-management-api-gu02.onrender.com/docs">Documentation API</a>
-            <a href="https://property-management-api-gu02.onrender.com/redoc">ReDoc Documentation</a>
+                <p>Développé par <h2>NKONGA TADJUIDJE MOREL.</h2></p>
+            <a href="https://property-management-api-gu02.onrender.com/docs"> click ici pour voir les endpoints API</a>
+            
+            <h2>vos retours sont les bienvenus parcequ'on n'apprend tout les jours Merci !</h2>
 
-            <h2> si vous aviez clonez le projet depuis mon github, veuillez svp mettre une étoile ⭐️ et voir plutot les liens en locales</h2>
-            <a href="http://127.0.0.1:8000/docs">Documentation API Locale</a>
-            <a href="http://http://127.0.0.1:8000/redoc">ReDoc Documentation Locale</a>
-            <h1> vos retours sont les bienvenus parcequ'on n'apprend tout les jours Merci !</h1>
+            
             </body>
         </html>
         """
